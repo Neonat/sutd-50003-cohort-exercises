@@ -1,4 +1,4 @@
-# 50.003 cohort exercises
+# SUTD 50.003 — Cohort Exercises
 
 Personal coursework and reference material for SUTD 50.003 Software Construction. This fork of [sutd50003/cohortproblems](https://github.com/sutd50003/cohortproblems) retains local exercise work alongside the upstream handouts and starter projects. The upstream [MIT licence and attribution](LICENSE) remain in place.
 
@@ -18,8 +18,30 @@ Personal coursework and reference material for SUTD 50.003 Software Construction
 
 ## Working with an exercise
 
+```bash
+git clone https://github.com/Neonat/sutd-50003-cohort-exercises.git
+cd sutd-50003-cohort-exercises
+```
+
+For a dependency-free starting point, open
+[`ce1/task1/ce1.html`](ce1/task1/ce1.html) in a browser. The associated
+[implementation notes](ce1/README.md) distinguish the submission version from
+the extended MinMax interface and explain the event-loop exercise.
+
 Open the relevant handout first. Each Node/React project has its own `package.json` and lockfile; install dependencies and run its scripts from that package's directory. Database exercises also need the local MongoDB or MySQL service and the configuration described in their handouts.
 
 The CE10 handout deliberately includes failing and error-producing test cases as teaching examples. Check each exercise's objective when interpreting test results.
 
 This fork preserves personal coursework changes. Review local work before considering an upstream update; the repository is maintained here as a coursework reference.
+
+## Context and status
+
+These are separate exercises, handouts and retained local attempts, rather than
+one deployable application or a claim that every problem is complete. There is
+no root-level build or test command. No exercise runtime or database setup was
+revalidated for this README update.
+
+The companion [50.003 lecture examples](https://github.com/Neonat/sutd-50003-lecture-examples)
+provide the corresponding reference patterns. The upstream course repository
+and MIT attribution linked above remain the source of the starter material;
+local notes and exercise changes are retained in this fork.
