@@ -6,8 +6,6 @@ Right now, I want to implement a less than, and a greater than, logic so that I 
 
 Then for event click, another function called min_max will run both lt and gt across the array.
 
-Implement less than (`lt`) and greater than (`gt`) logic to iteratively check through an entire array. Then for the button click event, `min_max` will run both `lt` and `gt` across the array to find the minimum and maximum values.
-
 ## Bugs Fixed
 
 ### Bug 1: Wrong script filename
@@ -70,7 +68,7 @@ My friend told me to automate the printing. I want to try that.
 
 Omg doing that took WAY WAY WAY too long. Holy balls!!
 
-![Stack Trace Table](cohortproblems/ce1/task2/StackTable.jpeg)
+![Stack Trace Table](task2/StackTable.jpeg)
 
 Here is what I managed to get out of the entire simulator.js run in terminal.
 
